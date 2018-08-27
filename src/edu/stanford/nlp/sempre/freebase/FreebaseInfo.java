@@ -276,7 +276,7 @@ public final class FreebaseInfo {
   }
 
   // fb:en.barack_obama => http://rdf.freebase.com/ns/en/barack_obama
-  public static final String freebaseNamespace = "http://rdf.freebase.com/ns/";
+  public static final String freebaseNamespace = "http://rdf.freebase.com/ns/g.11vjz1ynm/";
 
   public static String id2uri(String id) {
     assert id.startsWith("fb:") : id;
